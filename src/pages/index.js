@@ -26,7 +26,6 @@ export default class IndexPage extends React.Component {
         .split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
-    console.log(proc);
     this.setState({
       search: input,
       normalized: proc
@@ -35,7 +34,6 @@ export default class IndexPage extends React.Component {
 
   handleClick = event => {
     event.preventDefault();
-    console.log(event.currentTarget.value);
     this.setState({
       sortOrder: event.currentTarget.value
     })

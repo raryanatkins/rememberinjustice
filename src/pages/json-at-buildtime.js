@@ -44,7 +44,7 @@ const JSONbuildtime = ({ normalized, sortOrder }) => (
 			        	<div className="font-weight-bold name">{data.name}</div>
 			        </div>
 			        <div className="col">
-				        <div>{data.location}</div>
+				        <div>{data.location.replace(', ', ',\n')}</div>
 				    </div>
 				    <div className="col">
 				        <div>{data.date}</div>
