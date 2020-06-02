@@ -1,0 +1,77 @@
+/* Variables */
+  
+/* base reset */
+* {
+  box-sizing: border-box;
+}
+
+html, main, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #200f21;
+}
+
+body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+a:hover, a:visited, a:link, a:active {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	box-shadow: 0px 2px 5px #382039;
+	border-radius: 4px;
+	background-color: #382039;
+	color: grey;
+	padding: 5px;
+	.name {
+		color: white;
+	}
+
+	transition: background-color 1s 0s;
+	&:hover {
+		color: #f0f0f0;
+		background-color: #343a40;
+	}
+}
+
+.icon-container {
+	text-align: center;
+	font-size: 45px;
+}
+
+.form-container {
+	padding: 20px 20px 0 30px;
+}
+
+.sortBtn {
+	color: white;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.no-padding {
+	padding-left: 0 !important;
+}
