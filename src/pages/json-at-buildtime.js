@@ -1,7 +1,5 @@
 import React from "react"
 import JSONData from "../../content/remember.json"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faNewspaper } from '@fortawesome/fontawesome-free-solid'
 
 function GetSortOrder(prop) {
 

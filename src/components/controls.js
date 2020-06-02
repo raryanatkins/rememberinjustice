@@ -8,6 +8,7 @@ const Controls = ({ handleChange, handleClick, search }) => (
 		<form>
 			<div className="form-group">
 				<input
+					aria-label="search"
 					className="form-control"
 					type="text"
 					name="search"

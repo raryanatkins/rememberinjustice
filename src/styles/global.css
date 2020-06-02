@@ -45,17 +45,18 @@ li {
 	background-color: #382039;
 	color: grey;
 	padding: 5px;
-	.name {
-		color: white;
-	}
 
 	transition: background-color 1s 0s;
-	&:hover {
-		color: #f0f0f0;
-		background-color: #343a40;
-	}
 }
 
+li:hover {
+	color: #f0f0f0;
+	background-color: #343a40;
+}
+
+.name {
+	color: white;
+}
 .icon-container {
 	text-align: center;
 	font-size: 45px;
@@ -67,9 +68,10 @@ li {
 
 .sortBtn {
 	color: white;
-	&:hover {
+}
+
+.sortBtn:hover {
 		cursor: pointer;
-	}
 }
 
 .no-padding {
