@@ -41,7 +41,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Remember" />
+        <SEO title="Remember Injustice" />
         <Controls
           handleChange={this.handleChange}
           handleClick={this.handleClick}
